@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container-fluid">
+
+    </div>
+  </header>
+  <main> 
+    <div class="weather">
+      <div class="baner">
+        <div class="baner_1">
+          <h2 style="text-align:center ;">Today</h2>
+        </div>
+      </div>
+      <div class="main" >
+      <div class="today" id="today">
+        <div style="display: flex;justify-content: center;">
+        
+          <div class="baner_2">
+                <h3 id="city" style="text-align:center; color: #fff "></h3>
+              </div>
+          </div>
+            
+              <div class="img">
+                <img style="width: 100px;height: 90px;" src="png/" alt="">
+                <div  ><p class="p" style="margin-top:30px ;" ><span class="temp"></span> </p></div>
+                
+                <div> 
+                  <div class="none"></div>
+                  </div> 
+                </div>
+                <div class="feelslike">
+                  <div class="baner_3">
+                    <p style="text-align:center; color: #fff;font-size: 24px;" id="description"></p>
+                  </div> 
+                  <p class="p" id="feelsLike">°C</p>
+                </div>
+          
+          <div class="line">
+            <div class="line_1"></div>
+          </div>
+          <div class="icons">
+            <div class="icon_1">
+              <img  style="padding: 10px 35px 1px 35px;" src="png/iwwa_humidity.png" alt="">
+              <p style="text-align:center; color: #fff;font-size: 20px;" id="humidity">%</p>
+            </div>
+            <div class="icon_1">
+              <img  style="padding: 10px 35px 1px 25px;" src="png/akar-icons_cloud.png" alt="">
+              <p style="text-align:center; color: #fff;font-size: 20px;" id="cloud">%</p>
+            </div>
+          
+            <div class="icon_1">
+              <img style="padding: 10px 30px 1px 30px;"  src="png/bi_wind.png" alt="">
+              <p style="text-align:center; color: #fff;font-size: 20px;" id="wind">km/h</p>
+            </div>
+            <div class="icon_1">
+              <img style="padding: 10px 25px 1px 25px;"  src="png/emojione-monotone_fog.png" alt="">
+              <p style="text-align:center; color: #fff;font-size: 20px;" id="visibility">%</p>
+            </div>
+            <div class="icon_1">
+              <img style="padding: 10px 30px 1px 30px;"  src="png/Group.png" alt="">
+              <p style="text-align:center; color: #fff;font-size: 20px;" id="pressure">%</p>
+            </div>
+            <div class="icon_1">
+              <p style="text-align:center; color: #fff;font-size: 20px;padding-top:7px" id="tempMin">Min°</p>
+              <p style="text-align:center; color: #fff;font-size: 20px;" id="tempMax">Max°</p>
+            </div>
+          </div>
+        </div>
+ </div>
+  </div>
+</div>
+ </main>
+
+<script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

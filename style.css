@@ -1,0 +1,116 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background: url(png/Frame\ 1.png);
+}
+
+/*HEADER*/
+
+header{
+  display: flex;
+  height: 100px;
+  background: #626262;
+  border-radius:0px 0px 50px 50px;
+  align-items: center;
+}
+.btn{
+  background: #fff;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  transition: 0.5s;
+}
+#img_search{
+  width: 25px;
+  height: 25px;
+}
+#btn{
+  width: 100px;
+  height: 50px;
+}
+.form-control{
+  border-radius: 50px;
+}
+
+/*MAIN*/
+.main{
+  display: flex;
+  justify-content: center;
+}
+.baner_1{
+  background: #fff;
+  width: 550px;
+  height: 50px;
+  border-radius: 0px 0px 50px 50px;
+}
+.baner{
+  display: flex;
+  justify-content: center;
+}
+.today{
+
+  margin-top: 80px;
+  width: 530px;
+  height: 430px;
+  background: #fff;
+  border-radius: 50px;
+  margin-right: 50px;
+}
+.baner_2{
+  
+  background: #626262;
+  width: 250px;
+  height: 40px;
+  border-radius: 0px 0px 50px 50px;
+}
+.img{
+  display: flex;
+ margin-left: 30px;
+ margin-top: 20px;
+}
+.p{
+  font-size: 50px;
+  margin-left: 10px;
+  
+}
+.none{ 
+  width: 171px;
+}
+.baner_3{
+  
+  background: #626262;
+  height: 30px;
+  width: 150px;
+ 
+  border-radius: 50px 0px 0px 50px;
+ 
+}
+.line{
+  display: flex;
+  justify-content: center;
+}
+.line_1{ 
+
+  background: #626262;
+  width: 410px;
+  height: 2px;
+}
+.icons{
+margin-top: 20px;
+  display: grid;
+  justify-content: center;
+grid-template-columns: repeat(3, 100px);
+grid-template-rows: repeat(2, 90px);
+grid-column-gap: 30px;
+grid-row-gap: 30px;
+}
+.icon_1{
+
+  background: #626262;
+  width: 104px;
+  
+  height: 90px;
+  border-radius: 25px;
+}
+
+
